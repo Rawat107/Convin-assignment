@@ -40,6 +40,4 @@ class GoogleCalendarRedirectView(View):
         service = build('calendar', 'v3', credentials=credentials)
         events = service.events().list(calendarId='primary').execute()
 
-        # Process the events as per your requirements
-
         return HttpResponse('Events fetched successfully')
