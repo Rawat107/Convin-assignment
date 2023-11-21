@@ -12,3 +12,5 @@ This view will do two things
 need to implement mechanism to get access_token from given
 code
 2. Once got the access_token get list of events in users calendar
+
+## Note: Incomplete working...
